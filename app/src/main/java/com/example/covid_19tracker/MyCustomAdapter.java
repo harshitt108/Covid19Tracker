@@ -15,13 +15,13 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-public class myCustomAdapter extends ArrayAdapter<CountryModel> {
+public class MyCustomAdapter extends ArrayAdapter<CountryModel> {
 
     private Context context;
     private List<CountryModel> countryModelList;
 
 
-    public myCustomAdapter( Context context , List<CountryModel> countryModelList) {
+    public MyCustomAdapter(Context context , List<CountryModel> countryModelList) {
         super ( context , R.layout.list_custom_item,countryModelList );
 
         this.context = context;
